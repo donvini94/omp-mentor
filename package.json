@@ -1,0 +1,11 @@
+{
+  "name": "omp-mentor",
+  "version": "1.0.0",
+  "description": "Mentored coding mode: the agent guides you to write the code instead of writing it for you",
+  "type": "module",
+  "author": "Vincenzo Pace",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/donvini94/omp-mentor.git" },
+  "keywords": ["omp", "oh-my-pi", "claude-code", "agent-skill", "mentoring", "learning"],
+  "files": ["skills", "commands", "README.md", "LICENSE"]
+}
