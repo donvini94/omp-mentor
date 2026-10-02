@@ -7,5 +7,10 @@
   "license": "MIT",
   "repository": { "type": "git", "url": "git+https://github.com/donvini94/omp-mentor.git" },
   "keywords": ["omp", "oh-my-pi", "claude-code", "agent-skill", "mentoring", "learning"],
-  "files": ["skills", "commands", "README.md", "LICENSE"]
+  "files": ["skills", "commands", "prompts", "README.md", "LICENSE"],
+  "pi": {
+    "extensions": [],
+    "skills": ["./skills/mentor"],
+    "prompts": ["./prompts/mentor.md"]
+  }
 }

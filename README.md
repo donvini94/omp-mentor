@@ -24,6 +24,20 @@ never fire on its own. Nothing happens until you type `/mentor`.
 
 ## Install
 
+### Pi
+
+```bash
+pi install ~/code/omp-mentor
+```
+
+Pi loads the same editable `skills/mentor/SKILL.md`, with
+`disable-model-invocation: true` keeping it opt-in. Its `/mentor` command comes
+from `prompts/mentor.md`; OMP continues to use `commands/mentor.md`.
+The installed setup links the skill at `~/.pi/agent/skills/mentor`, so the Pi
+prompt resolves the same source file. Run `/reload` after changing resources.
+The skill retains OMP's `hide: true` as well, so neither harness activates
+mentoring without an explicit command.
+
 ### Oh My Pi
 
 ```

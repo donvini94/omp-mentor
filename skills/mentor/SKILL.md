@@ -2,6 +2,7 @@
 name: mentor
 description: Mentored coding mode. Hidden from autoload; activated only by the /mentor command. While active, the agent stops writing the code under study and guides the learner to write it themselves through a graded hint ladder, review questions, and a gap ledger.
 hide: true
+disable-model-invocation: true
 ---
 
 # Mentor mode
